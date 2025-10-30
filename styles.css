@@ -70,6 +70,15 @@
         color: #ffffff;
         padding: 1rem;
       }
+      .card:hover {
+      transform: scale(1.05);
+      animation: pulse 1s ease infinite alternate;
+      }
+ 
+@keyframes pulse {
+  from { background-color: #024eff; }
+  to { background-color: #0011ff; }
+}
       @media (max-width: 768px) {
         .main {
           flex-direction: column;
