@@ -4,6 +4,13 @@
     margin: 0;
     padding: 0;
 }
+h3 {
+  margin: 0;
+  display: flex;
+  justify-content: center;    /* center horizontally */
+  align-items: center;        /* center vertically */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
       body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         line-height: 1.6;
@@ -46,6 +53,7 @@
         height: auto;
         border-radius: 6px;
       }
+            
       .cards {
         display: flex;
         flex-wrap: wrap;
