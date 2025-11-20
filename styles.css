@@ -12,10 +12,11 @@ h3 {
   align-items: center;       
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-      body {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        line-height: 1.6;
-      }
+  body {
+  margin-top: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.6;
+  }
  header {
   position: fixed;       
   top: 0;               
@@ -29,36 +30,36 @@ h3 {
   padding: 1rem;
   z-index: 999;         
 }
-      header nav a {
-        color: #ffffff;
-        margin-left: 1rem;
-        text-decoration: none;
-      }
-      .main {
-        display: flex;
-        gap: 1rem;
-        padding: 1.5rem;
-        background: #a8a8a8;
-      }
-      .main .text {
-        flex: 1;
-        color:#000000;
-      }
-      .main .image {
-        flex: 1;
-        height: auto;
-        width: 100%;
-        background: #a8a8a8;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%; 
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 50%;
-      }
+  header nav a {
+  color: #ffffff;
+  margin-left: 1rem;
+  text-decoration: none;
+  }
+  .main {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #a8a8a8;
+  }
+  .main .text {
+  flex: 1;
+  color:#000000;
+  }
+  .main .image {
+  flex: 1;
+  height: auto;
+  width: 100%;
+  background: #a8a8a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; 
+  }
+  img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  }
             
       .cards {
         display: flex;
