@@ -16,14 +16,19 @@ h3 {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         line-height: 1.6;
       }
-      header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: #010260;
-        color: #ffffff;
-        padding: 1rem;
-      }
+ header {
+  position: fixed;       
+  top: 0;               
+  left: 0;
+  width: 100%;           
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #010260;
+  color: #ffffff;
+  padding: 1rem;
+  z-index: 999;         
+}
       header nav a {
         color: #ffffff;
         margin-left: 1rem;
