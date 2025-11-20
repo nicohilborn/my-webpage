@@ -32,7 +32,7 @@ h3 {
         display: flex;
         gap: 1rem;
         padding: 1.5rem;
-        background: #ffffff;
+        background: #a8a8a8;
       }
       .main .text {
         flex: 1;
@@ -42,7 +42,7 @@ h3 {
         flex: 1;
         height: auto;
         width: 100%;
-        background: #ffffff;
+        background: #a8a8a8;
         display: flex;
         align-items: center;
         justify-content: center;
