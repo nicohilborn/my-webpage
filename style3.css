@@ -11,6 +11,9 @@
   padding: 1rem;
   z-index: 999;         
 }
+header nav a:hover {
+    color: #02ccff;
+}
       header nav a {
         color: #ffffff;
         margin-left: 1rem;
